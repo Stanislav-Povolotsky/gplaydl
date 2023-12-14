@@ -17,15 +17,6 @@ gplaydl download --packageId com.twitter.android
 ```
 
 ## Detailed Instructions
-So the brief instructions didn't get you going? Here is a detailed guide for you. Let's begin with installing the package using PIP3.
-
-```bash
-pip3 install --upgrade --force-reinstall gplaydl==1.4.0
-```
-
-If `gplaydl` is already installed on your system, it will be upgraded to the latest version as we are forcing PIP to install from the latest release.
-
-or
 
 ```bash
 git clone https://github.com/backryun/gplaydl2.git && \
