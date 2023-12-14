@@ -7,7 +7,7 @@ Download APK, split APKs, and expansion (OBB) files from Google Play Store to yo
 ## Brief Instructions
 ```bash
 # Install the package
-pip3 install --upgrade --force-reinstall gplaydl==1.4.0
+git clone https://github.com/backryun/gplaydl2.git && cd gplaydl && python3 setup.py install
 
 # Configure auth
 gplaydl configure
@@ -16,13 +16,6 @@ gplaydl configure
 gplaydl download --packageId com.twitter.android
 ```
 
-## Detailed Instructions
-
-```bash
-git clone https://github.com/backryun/gplaydl2.git && \
-cd gplaydl && \
-python3 setup.py install
-```
 **Attention:** Only Python 3.2.x and up is supported. Please use PIP3, not PIP (if PIP is aliased to Python 2.x PIP)
 
 ## Configuration
